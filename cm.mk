@@ -12,20 +12,20 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/htc/m7vzw/full_m7vzw.mk)
+$(call inherit-product, device/htc/m7wlj/full_m7wlj.mk)
 
 # Inherit CM full phone configuration
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Device naming
-PRODUCT_NAME := cm_m7vzw
+PRODUCT_NAME := cm_m7wlj
 
 # Override build props
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_FINGERPRINT="htc/HTCOneVZW/m7wlv:5.0.2/LRX22G/495599.6:user/release-keys" \
-    BUILD_ID=LRX22G \
-    PRIVATE_BUILD_DESC="6.22.605.6 CL495599 release-keys" \
-    PRODUCT_NAME=HTCOneVZW
+    BUILD_ID=KOT49H \
+    BUILD_FINGERPRINT="htc/m7_jp_kdi/m7wlj:4.4.2/KOT49H/363468.12:user/release-keys" \
+    PRIVATE_BUILD_DESC="3.13.970.12 CL363468 release-keys" \
+    PRODUCT_NAME=m7wlj
 
 # Override ro.com.google.clientidbase
 PRODUCT_GMS_CLIENTID_BASE := android-verizon
