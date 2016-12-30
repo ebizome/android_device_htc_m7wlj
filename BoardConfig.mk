@@ -68,4 +68,4 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2348809216
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 27380416512
 
 # inherit from the proprietary version
--include vendor/htc/m7wlj/BoardConfigVendor.mk
+-include vendor/htc/m7vzw/BoardConfigVendor.mk
