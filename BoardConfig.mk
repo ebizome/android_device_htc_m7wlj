@@ -34,6 +34,9 @@ TARGET_OTA_ASSERT_DEVICE := m7wlj
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := m7wlj
 
+# Kernel
+BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
+
 # cat /proc/emmc
 # dev:        size     erasesize name
 # mmcblk0p19: 000ffa00 00000200 "misc"
